@@ -9,4 +9,5 @@ import { environment } from '../environments/environment';
 export class AppComponent {
   title = 'my-app';
   apiUrl = environment.apiUrl;
+  deployed_env = environment.deployed_env;
 }
